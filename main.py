@@ -65,7 +65,7 @@ def validate_agent(steps, env, agent):
 
 
 if __name__ == "__main__":
-    train_agent(400000, env1, agent1, "./Saved_model/Assault_model_2.pth", "./Saved_model/Assault_model_2.pth")
+    train_agent(400000, env1, agent1)
     # train_agent(200000, env1, agent1, "./Saved_model/LunarLander_model_1.pth", "./Saved_model/LunarLander_model_1.pth")
     validate_agent(2000, env2, agent1)
     env1.close()
