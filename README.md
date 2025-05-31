@@ -14,4 +14,5 @@ agent1 = QAgent.VideoQAgent(video_dim=(96, 96, 3), action_num=5, device=device)
 
 environment_name = "CarRacing-v2"
 ```
-For complex environment like Car Racing, more modifcation may needed, for example, you may increase the experience memory size to 10000+ to ensure it is able to learn.
+For complex environment like Car Racing, more modifcation may needed, for example, you may increase the experience memory size to 10000+ to ensure it is able to learn. After several episodes, you should see the reward per episode surge like this figure indicates:
+![The reward per episode with Double Q learning over episodes](./pictures/Carracing_reward.png)
